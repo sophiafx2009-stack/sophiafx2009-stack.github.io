@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+
+    background-color: rgb(255, 172, 186);
+    color: rgb(49, 49, 49);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+
+}
+
+h1, h2, h3{
+    color: rgb(79, 50, 36);
+}
+
+h1{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+a{
+    color: rgb(255, 27, 145);
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+.cabecalho{
+    background-color: rgb(59, 222, 225);
+    color: rgb(255, 255, 255);
+
+    padding: 30px 0;
+}
+
+.cabecalho h1{
+    color: rgb(79, 56, 45);
+}
+
+.etiqueta{
+    margin-bottom: 5px;
+
+    color:beige;
+
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.subtitulo{
+    max-width: 700px;
+}
+
+.menu-principal{
+    margin: 20px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.menu-principal li{
+    display: inline-block;
+
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+
+    padding: 8px 12px;
+
+    background-color: rgb(255, 172, 186);
+    color: rgb(79, 50, 36);
+
+    border: 1px solid rgb(79, 50, 36);
+    border-radius:5px;
+
+    text-decoration: none;
+}
+
+.secao{
+    padding: 72px 0;
+}
+    
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+
+    border-left: 5px solid rgb(59, 222, 225);
+    border-radius: 5px ;
+}
+
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+
+.card {
+    padding: 24px;
+    background-color: beige;
+    border: 1px solid rgb(59, 222, 225);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(186, 238, 255, 0.836);
+}
+
+.lista-tecnologia{
+    display: inline-block;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-tecnologia li{
+    padding: 10px 14px;
+    background-color: beige;
+    display: inline-block;
+    border: 1px solid beige;
+    border-radius: 999px;
+}
