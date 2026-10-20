@@ -135,4 +135,15 @@ a{
     display: inline-block;
     border: 1px solid beige;
     border-radius: 999px;
+    box-shadow: 0 10px 30px rgba(186, 238, 255, 0.836);
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: rgb(253, 190, 200);
+}
+
+.rodape address{
+    font-style: normal;
 }
