@@ -29,3 +29,16 @@
 .tabela-conhecimentos tfoot{
     background-color: rgb(160, 228, 232);
 }
+
+.secao{
+    margin: 25px 0;
+    padding: 24px;
+
+    background-color: beige;
+
+    border: 1px solid pink;
+
+    border-radius: 8px;
+
+
+}
